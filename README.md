@@ -1,4 +1,5 @@
 # Node Twitter Client
+*typo in my commit message should be commited rather than ommited
 
 This is a Twitter clone/client, built to practice using Node, Express, promises, asynchronous programming and Javascript in general.
 
