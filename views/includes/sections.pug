@@ -1,0 +1,30 @@
+.bounds.app--body
+  .app--section--header
+    .grid-33
+      .app--section--heading
+        h2 Timeline
+    .grid-33
+      .app--section--heading
+        h2 Following
+    .grid-33
+      .app--section--heading
+        h2 Direct Messages
+        
+  .grid-33
+    .app--section
+      ul.app--tweet--list
+                
+  .grid-33
+    .app--section
+      ul.app--user--list
+        
+  .grid-33
+    .app--section
+      ul.app--message--list
+        li
+          ul.app--message--conversation
+            
+  block scripts
+  script(src="/js/tweets.js")
+  script(src="/js/friends.js")
+  script(src="/js/messages.js")
